@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/green/DesktopFolder/Programming/C++/VideoRecord/main.cpp" "/home/green/DesktopFolder/Programming/C++/VideoRecord/cmake-build-debug/CMakeFiles/VideoRecord.dir/main.cpp.o"
+  "/home/green/DesktopFolder/Programming/C++/VideoRecord/slic.cpp" "/home/green/DesktopFolder/Programming/C++/VideoRecord/cmake-build-debug/CMakeFiles/VideoRecord.dir/slic.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

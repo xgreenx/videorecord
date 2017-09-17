@@ -14,6 +14,22 @@ opencv2/opencv.hpp
 algorithm
 -
 
+/home/green/DesktopFolder/Programming/C++/VideoRecord/slic.cpp
+slic.h
+/home/green/DesktopFolder/Programming/C++/VideoRecord/slic.h
+
+/home/green/DesktopFolder/Programming/C++/VideoRecord/slic.h
+stdio.h
+-
+math.h
+-
+vector
+-
+float.h
+-
+opencv2/opencv.hpp
+-
+
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h
 /usr/local/include/opencv/opencv2/core/core_c.h
