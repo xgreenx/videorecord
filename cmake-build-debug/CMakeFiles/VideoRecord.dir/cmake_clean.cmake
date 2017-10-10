@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/VideoRecord.dir/main.cpp.o"
-  "CMakeFiles/VideoRecord.dir/slic.cpp.o"
+  "CMakeFiles/VideoRecord.dir/Component.cpp.o"
   "VideoRecord.pdb"
   "VideoRecord"
 )

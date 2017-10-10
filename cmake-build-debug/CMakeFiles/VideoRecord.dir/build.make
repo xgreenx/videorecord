@@ -81,40 +81,40 @@ CMakeFiles/VideoRecord.dir/main.cpp.o.provides: CMakeFiles/VideoRecord.dir/main.
 CMakeFiles/VideoRecord.dir/main.cpp.o.provides.build: CMakeFiles/VideoRecord.dir/main.cpp.o
 
 
-CMakeFiles/VideoRecord.dir/slic.cpp.o: CMakeFiles/VideoRecord.dir/flags.make
-CMakeFiles/VideoRecord.dir/slic.cpp.o: ../slic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/green/DesktopFolder/Programming/C++/VideoRecord/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VideoRecord.dir/slic.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/VideoRecord.dir/slic.cpp.o -c /home/green/DesktopFolder/Programming/C++/VideoRecord/slic.cpp
+CMakeFiles/VideoRecord.dir/Component.cpp.o: CMakeFiles/VideoRecord.dir/flags.make
+CMakeFiles/VideoRecord.dir/Component.cpp.o: ../Component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/green/DesktopFolder/Programming/C++/VideoRecord/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VideoRecord.dir/Component.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/VideoRecord.dir/Component.cpp.o -c /home/green/DesktopFolder/Programming/C++/VideoRecord/Component.cpp
 
-CMakeFiles/VideoRecord.dir/slic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/VideoRecord.dir/slic.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/green/DesktopFolder/Programming/C++/VideoRecord/slic.cpp > CMakeFiles/VideoRecord.dir/slic.cpp.i
+CMakeFiles/VideoRecord.dir/Component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/VideoRecord.dir/Component.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/green/DesktopFolder/Programming/C++/VideoRecord/Component.cpp > CMakeFiles/VideoRecord.dir/Component.cpp.i
 
-CMakeFiles/VideoRecord.dir/slic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/VideoRecord.dir/slic.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/green/DesktopFolder/Programming/C++/VideoRecord/slic.cpp -o CMakeFiles/VideoRecord.dir/slic.cpp.s
+CMakeFiles/VideoRecord.dir/Component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/VideoRecord.dir/Component.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/green/DesktopFolder/Programming/C++/VideoRecord/Component.cpp -o CMakeFiles/VideoRecord.dir/Component.cpp.s
 
-CMakeFiles/VideoRecord.dir/slic.cpp.o.requires:
+CMakeFiles/VideoRecord.dir/Component.cpp.o.requires:
 
-.PHONY : CMakeFiles/VideoRecord.dir/slic.cpp.o.requires
+.PHONY : CMakeFiles/VideoRecord.dir/Component.cpp.o.requires
 
-CMakeFiles/VideoRecord.dir/slic.cpp.o.provides: CMakeFiles/VideoRecord.dir/slic.cpp.o.requires
-	$(MAKE) -f CMakeFiles/VideoRecord.dir/build.make CMakeFiles/VideoRecord.dir/slic.cpp.o.provides.build
-.PHONY : CMakeFiles/VideoRecord.dir/slic.cpp.o.provides
+CMakeFiles/VideoRecord.dir/Component.cpp.o.provides: CMakeFiles/VideoRecord.dir/Component.cpp.o.requires
+	$(MAKE) -f CMakeFiles/VideoRecord.dir/build.make CMakeFiles/VideoRecord.dir/Component.cpp.o.provides.build
+.PHONY : CMakeFiles/VideoRecord.dir/Component.cpp.o.provides
 
-CMakeFiles/VideoRecord.dir/slic.cpp.o.provides.build: CMakeFiles/VideoRecord.dir/slic.cpp.o
+CMakeFiles/VideoRecord.dir/Component.cpp.o.provides.build: CMakeFiles/VideoRecord.dir/Component.cpp.o
 
 
 # Object files for target VideoRecord
 VideoRecord_OBJECTS = \
 "CMakeFiles/VideoRecord.dir/main.cpp.o" \
-"CMakeFiles/VideoRecord.dir/slic.cpp.o"
+"CMakeFiles/VideoRecord.dir/Component.cpp.o"
 
 # External object files for target VideoRecord
 VideoRecord_EXTERNAL_OBJECTS =
 
 VideoRecord: CMakeFiles/VideoRecord.dir/main.cpp.o
-VideoRecord: CMakeFiles/VideoRecord.dir/slic.cpp.o
+VideoRecord: CMakeFiles/VideoRecord.dir/Component.cpp.o
 VideoRecord: CMakeFiles/VideoRecord.dir/build.make
 VideoRecord: /usr/local/lib/libopencv_shape.so.3.2.0
 VideoRecord: /usr/local/lib/libopencv_stitching.so.3.2.0
@@ -142,7 +142,7 @@ CMakeFiles/VideoRecord.dir/build: VideoRecord
 .PHONY : CMakeFiles/VideoRecord.dir/build
 
 CMakeFiles/VideoRecord.dir/requires: CMakeFiles/VideoRecord.dir/main.cpp.o.requires
-CMakeFiles/VideoRecord.dir/requires: CMakeFiles/VideoRecord.dir/slic.cpp.o.requires
+CMakeFiles/VideoRecord.dir/requires: CMakeFiles/VideoRecord.dir/Component.cpp.o.requires
 
 .PHONY : CMakeFiles/VideoRecord.dir/requires
 

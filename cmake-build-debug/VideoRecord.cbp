@@ -86,13 +86,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/green/DesktopFolder/Programming/C++/VideoRecord/Component.cpp">
+			<Option target="VideoRecord"/>
+		</Unit>
+		<Unit filename="/home/green/DesktopFolder/Programming/C++/VideoRecord/Component.h">
+			<Option target="VideoRecord"/>
+		</Unit>
 		<Unit filename="/home/green/DesktopFolder/Programming/C++/VideoRecord/main.cpp">
-			<Option target="VideoRecord"/>
-		</Unit>
-		<Unit filename="/home/green/DesktopFolder/Programming/C++/VideoRecord/slic.cpp">
-			<Option target="VideoRecord"/>
-		</Unit>
-		<Unit filename="/home/green/DesktopFolder/Programming/C++/VideoRecord/slic.h">
 			<Option target="VideoRecord"/>
 		</Unit>
 		<Unit filename="/home/green/DesktopFolder/Programming/C++/VideoRecord/CMakeLists.txt">

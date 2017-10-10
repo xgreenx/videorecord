@@ -123,6 +123,33 @@ VideoRecord/fast:
 	$(MAKE) -f CMakeFiles/VideoRecord.dir/build.make CMakeFiles/VideoRecord.dir/build
 .PHONY : VideoRecord/fast
 
+Component.o: Component.cpp.o
+
+.PHONY : Component.o
+
+# target to build an object file
+Component.cpp.o:
+	$(MAKE) -f CMakeFiles/VideoRecord.dir/build.make CMakeFiles/VideoRecord.dir/Component.cpp.o
+.PHONY : Component.cpp.o
+
+Component.i: Component.cpp.i
+
+.PHONY : Component.i
+
+# target to preprocess a source file
+Component.cpp.i:
+	$(MAKE) -f CMakeFiles/VideoRecord.dir/build.make CMakeFiles/VideoRecord.dir/Component.cpp.i
+.PHONY : Component.cpp.i
+
+Component.s: Component.cpp.s
+
+.PHONY : Component.s
+
+# target to generate assembly for a file
+Component.cpp.s:
+	$(MAKE) -f CMakeFiles/VideoRecord.dir/build.make CMakeFiles/VideoRecord.dir/Component.cpp.s
+.PHONY : Component.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,33 +177,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/VideoRecord.dir/build.make CMakeFiles/VideoRecord.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-slic.o: slic.cpp.o
-
-.PHONY : slic.o
-
-# target to build an object file
-slic.cpp.o:
-	$(MAKE) -f CMakeFiles/VideoRecord.dir/build.make CMakeFiles/VideoRecord.dir/slic.cpp.o
-.PHONY : slic.cpp.o
-
-slic.i: slic.cpp.i
-
-.PHONY : slic.i
-
-# target to preprocess a source file
-slic.cpp.i:
-	$(MAKE) -f CMakeFiles/VideoRecord.dir/build.make CMakeFiles/VideoRecord.dir/slic.cpp.i
-.PHONY : slic.cpp.i
-
-slic.s: slic.cpp.s
-
-.PHONY : slic.s
-
-# target to generate assembly for a file
-slic.cpp.s:
-	$(MAKE) -f CMakeFiles/VideoRecord.dir/build.make CMakeFiles/VideoRecord.dir/slic.cpp.s
-.PHONY : slic.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... VideoRecord"
+	@echo "... Component.o"
+	@echo "... Component.i"
+	@echo "... Component.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... slic.o"
-	@echo "... slic.i"
-	@echo "... slic.s"
 .PHONY : help
 
 
